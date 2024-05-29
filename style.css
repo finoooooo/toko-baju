@@ -1,0 +1,338 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+	background-color: #537188;
+	background-image: url(./img/Background.png);
+
+}
+
+header {
+	background-color: #CBB279;
+	width: 97%;
+	align-items: center;
+	display: flex;
+	margin: 25px auto 20px auto;
+	justify-content: space-between;
+	border-radius: 6px;
+	border-bottom: 6px solid #E1D4BB;
+}		
+
+.logo h1 {
+	padding-left: 40px;
+	color: #EEEEEE;
+	text-shadow: none;
+
+}
+
+.logo h1:hover {
+    transform: scale(1.05);
+    transition: all .4s ;
+}
+
+nav {
+	padding: 20px;
+}
+
+nav ul {
+	display: inline-flex;
+}
+
+nav ul li {
+	list-style: none;
+	padding-right: 25px;
+	font-size: 20px;
+}
+
+nav ul li a {
+	color: #EEEEEE;
+	padding: 6px 15px 6px 15px;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #537188;
+	transform: scale(1.05);
+    transition: all .2s ;
+    background-color: #E8D8C4;
+    border-radius: 6px;
+}
+
+.hero {
+	width: 95%;
+	margin: 40px auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 9%;
+}
+
+
+.left-hero {
+	width: 50%;
+	text-align: center;
+	font-size: 35px;
+	text-decoration: none;
+	padding-left: 5%;
+	color: #E1D4BB;
+}
+
+.left-hero a {
+	color: #537188;
+	background-image: url(./img/starbackgroundbuatanu.jpeg);
+	padding: 8px 11px 8px 11px;
+	border-radius: 6px;
+	text-decoration: none;
+}
+
+.left-hero a:hover {
+	background-color: #E8D8C4;
+	color: #537188;
+	padding: 8px 11px 8px 11px;
+}
+
+.right-hero {
+	width: 50%;
+}
+
+.right-hero img {
+	width: 70%;
+	border-bottom: 9px solid #CBB279;
+	border-radius: 50%;
+	margin-left: 150px;
+	transition: all .4s;
+	height: 65%;
+
+}
+
+.right-hero img:hover {
+	transform: scale(1.05);
+	transition: all .4s;
+}
+
+#about {
+	width: 97%;
+	height: 550px;
+	margin: 30px auto;
+	margin-bottom: 15%;
+}
+
+.title-about {
+	color: #EEEEEE ;
+	text-align: center;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+.title-about h1 {
+	font-size: 50	px;
+}
+
+#content-about {
+	background-color: #CBB279;
+	border-radius: 10px;
+	padding: 20px 30px 20px 30px;
+	border-bottom: 6px solid #E1D4BB;
+	margin: 25px auto 20px auto;
+}
+
+.atas-about {
+	width: 50%;
+}
+
+.atas-about img {
+	width: 100%;
+	height: 400px;
+	padding: 20px 50% 20px 50%;
+}
+
+#products {
+	width: 95%;
+	margin: 30px auto;
+	border-radius: 50px;
+	background-color: #CBB279;
+}
+
+.product-tittle {
+	text-align: center;
+	color: #EEEEEE;
+
+}
+
+.cards {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	transition: 0.3s;
+}
+
+.cards h2 {
+	background-color: #537188;
+	color :#EEEEEE ;
+	border-radius: 5px;
+}
+
+.cards a {
+	color: #537188;
+	text-decoration: none;
+	background-image: url(./img/starbackgroundbuatanu.jpeg);
+	padding: 6px 10px 6px 10px;
+	border-radius: 5px;
+}
+
+.cards a:hover {
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 9px 11px ;
+	border-radius: 5px;
+	transition: 1.5s;
+}
+
+.card1 {
+	background-color: #CBB279;
+	padding: 10px;
+    margin: 10px;
+	width: 300px;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card1 img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+
+.card2 {
+	background-color: #CBB279;
+	padding: 10px;
+    margin: 10px;
+	width: 300px;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card2 img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.card3 {
+	background-color: #CBB279;
+	padding: 10px;
+    margin: 10px;
+	width: 300px;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card3 img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.card4 {
+	background-color: #CBB279;
+	padding: 10px;
+    margin: 10px;
+	width: 300px;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card4 img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.card5 {
+	background-color: #CBB279;
+	padding: 10px;
+    margin: 10px;
+	width: 300px;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card5 img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.card6 {
+	background-color: #CBB279;
+	padding: 10px;
+    margin: 10px;
+	width: 300px;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card6 img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+#contact {
+	width: 95%;
+	margin: 20px auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 9%;
+	background-color: #CBB279;
+	border-radius: 50px 0;
+}
+
+.left-contact {
+	width: 40%;
+	text-align: center;
+	font-size: 25px;
+	text-decoration: none;
+	padding-left: 5%;
+	color: #E1D4BB;
+}
+
+.left-contact h2 {
+	color: #537188;
+}
+
+.left-contact a {
+	color: #537188;
+	padding: 8px 11px 8px 11px;
+	border-radius: 6px;
+	text-decoration: none;
+}
+
+.left-contact a:hover {
+	background-color: #E8D8C4;
+	color: #537188;
+	padding: 8px 11px 8px 11px;
+}
+
+.right-contact {
+	width: 100%;
+	padding-right: 70px;
+}
+
+.right-contact img {
+	width: 100%;
+	margin-left: 100px;
+	transition: all .4s;
+	height: 65%;
+}
+
+footer{
+	color: #ffffff;
+	text-align: center;
+	background: fixed;
+}
